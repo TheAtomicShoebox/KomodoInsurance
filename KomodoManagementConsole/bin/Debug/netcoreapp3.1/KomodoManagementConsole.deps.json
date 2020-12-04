@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "KomodoManagementConsole/1.0.0": {
+        "dependencies": {
+          "DevTeamRepo": "1.0.0",
+          "DeveloperRepo": "1.0.0"
+        },
+        "runtime": {
+          "KomodoManagementConsole.dll": {}
+        }
+      },
+      "DeveloperRepo/1.0.0": {
+        "runtime": {
+          "DeveloperRepo.dll": {}
+        }
+      },
+      "DevTeamRepo/1.0.0": {
+        "dependencies": {
+          "DeveloperRepo": "1.0.0"
+        },
+        "runtime": {
+          "DevTeamRepo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KomodoManagementConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeveloperRepo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevTeamRepo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
